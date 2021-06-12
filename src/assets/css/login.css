@@ -5,7 +5,7 @@
 .login-header h1 {
 	margin-right: 20px;
 }
-.login-header a {
+.login-header strong {
 	color: var(--primary-color);
 }
 .developers-container {
@@ -43,6 +43,11 @@
 	display: grid;
 	align-items: center;
 	grid-template-columns: 70px 1fr 50px;
+	cursor: pointer;
+	border: 0px;
+}
+.grid-container:hover {
+	border: 1px solid var(--primary-color);
 }
 .text-container h1 {
 	font-size: 16px;

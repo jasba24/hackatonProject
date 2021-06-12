@@ -2,14 +2,17 @@ import user from "../assets/img/user.png"
 import briefcase from "../assets/img/briefcase.png"
 import CardImage from "./CardImage"
 
-function CardContainer({ title, description }) {
+function CardContainer({ handleClick }) {
 	return (
 		<div className="card-container">
-			<h1 className="card-title">{title}</h1>
-			<p className="card-description">{description}</p>
+			<h1 className="card-title">¡Únete a la comunidad!</h1>
+			<p className="card-description">
+				Para empezar, dinos que cuenta te gustaría abrir.
+			</p>
 			<CardImage
 				clase="developers-container"
 				img={user}
+				handleClick={handleClick}
 				title="Developers"
 				description="Cuenta personas para entrar en el mundo dev"
 			></CardImage>
