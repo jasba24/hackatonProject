@@ -1,0 +1,24 @@
+.hero-container {
+	height: 100vh;
+	padding-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--primary-color);
+	opacity: 0.9;
+}
+
+.home-title {
+	width: 570px;
+	color: #fff;
+	font-size: 24px;
+}
+
+.home-container {
+	margin-top: 0;
+}
+
+.hero-icon {
+	margin-left: 90%;
+}
