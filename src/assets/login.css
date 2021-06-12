@@ -1,0 +1,58 @@
+.login-header {
+	display: flex;
+	justify-content: flex-end;
+}
+.login-header h1 {
+	margin-right: 20px;
+}
+.login-header a {
+	color: var(--primary-color);
+}
+.developers-container {
+	width: 50px;
+	height: 48px;
+	background-image: url("./Polygon\ 3-1.png");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.business-container {
+	width: 50px;
+	height: 48px;
+	background-image: url("./Polygon\ 3.png");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+.card-container {
+	width: 400px;
+	margin: 100px auto;
+}
+.card-title {
+	font-weight: bold;
+	font-size: 35px;
+	color: #000;
+}
+.card-description {
+	color: grey;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.grid-container {
+	display: grid;
+	align-items: center;
+	grid-template-columns: 70px 1fr 50px;
+}
+.text-container h1 {
+	font-size: 16px;
+	color: black;
+	font-weight: 500;
+}
+.text-container p {
+	font-size: 15px;
+}
+.flecha {
+	width: 20px;
+	margin-left: 20px;
+}
