@@ -1,12 +1,22 @@
 .login-header {
 	display: flex;
 	justify-content: flex-end;
+	color: gray;
 }
 .login-header h1 {
 	margin-right: 20px;
 }
 .login-header strong {
 	color: var(--primary-color);
+}
+.register-header {
+	justify-content: space-between;
+}
+.back {
+	cursor: pointer;
+}
+.back span {
+	font-size: 20px;
 }
 .developers-container {
 	width: 50px;
@@ -25,7 +35,7 @@
 	align-items: center;
 	margin-top: 10px;
 }
-.card-container {
+.form-container {
 	width: 400px;
 	margin: 100px auto;
 }

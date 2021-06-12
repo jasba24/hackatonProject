@@ -4,7 +4,7 @@ import CardImage from "./CardImage"
 
 function CardContainer({ handleClick }) {
 	return (
-		<div className="card-container">
+		<div className="form-container">
 			<h1 className="card-title">¡Únete a la comunidad!</h1>
 			<p className="card-description">
 				Para empezar, dinos que cuenta te gustaría abrir.
