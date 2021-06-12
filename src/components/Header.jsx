@@ -1,6 +1,14 @@
 import React from "react"
 
 export default function Header({ value, clase, backOne }) {
+	const changelabel = (val) => {
+		const labels = {
+			1: "Personal Info.",
+			2: "Localización",
+			3: "Verificación por tarjeta",
+		}
+		return labels[val]
+	}
 	return (
 		<header className={"login-header " + clase}>
 			{value === 0 && (
@@ -18,7 +26,7 @@ export default function Header({ value, clase, backOne }) {
 					<div>
 						<h1>
 							PASO 0{value}/03 <br />{" "}
-							<span style={{ color: "blue" }}>Personal Info.</span>{" "}
+							<label style={{ color: "blue" }}>{changelabel(value)}</label>
 						</h1>
 					</div>
 				</React.Fragment>

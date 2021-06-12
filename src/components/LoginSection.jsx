@@ -10,15 +10,21 @@ class LoginSection extends React.Component {
 			value: 0,
 		}
 	}
+
 	handleClick = e => {
 		this.setState({ value: 1 })
-		console.log(this.value)
 	}
 	backOne = () => {
 		this.setState({ value: this.state.value - 1 })
 	}
 	toogleClass = () => {
 		return this.state.value === 0 ? "" : "register-header"
+	}
+	handleSubmit = e => {
+		e.preventDefault()
+	}
+	handleChange = e => {
+		e.preventDefault()
 	}
 	render() {
 		return (
@@ -31,7 +37,9 @@ class LoginSection extends React.Component {
 				{this.state.value === 0 ? (
 					<CardContainer handleClick={this.handleClick}></CardContainer>
 				) : (
-					<RegisterContainer></RegisterContainer>
+					<RegisterContainer
+						handleSubmit={this.handleSubmit}
+					></RegisterContainer>
 				)}
 			</section>
 		)
