@@ -1,4 +1,4 @@
-import flecha from "../assets/flecha.png"
+import flecha from "../assets/img/flecha.png"
 
 function CardImage({ img, clase, title, description }) {
 	return (

@@ -1,4 +1,4 @@
-import "../assets/login.css"
+import "../assets/css/login.css"
 import CardContainer from "./CardContainer"
 
 function LoginSection() {

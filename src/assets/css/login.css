@@ -11,7 +11,7 @@
 .developers-container {
 	width: 50px;
 	height: 48px;
-	background-image: url("./Polygon\ 3-1.png");
+	background-image: url("../img/Polygon\ 3-1.png");
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -19,7 +19,7 @@
 .business-container {
 	width: 50px;
 	height: 48px;
-	background-image: url("./Polygon\ 3.png");
+	background-image: url("../img/Polygon\ 3.png");
 	display: flex;
 	justify-content: center;
 	align-items: center;

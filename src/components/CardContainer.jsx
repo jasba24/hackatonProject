@@ -1,5 +1,5 @@
-import user from "../assets/user.png"
-import briefcase from "../assets/briefcase.png"
+import user from "../assets/img/user.png"
+import briefcase from "../assets/img/briefcase.png"
 import CardImage from "./CardImage"
 
 function CardContainer({ title, description }) {

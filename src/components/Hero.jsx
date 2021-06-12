@@ -1,4 +1,4 @@
-import Vector from "../assets/Vector 2.png"
+import Vector from "../assets/img/Vector 2.png"
 function Hero() {
 	return (
 		<section className="column hero-container">

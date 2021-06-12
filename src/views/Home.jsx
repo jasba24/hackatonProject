@@ -1,4 +1,4 @@
-import "../assets/home.css"
+import "../assets/css/home.css"
 import Hero from "../components/Hero"
 import LoginSection from "../components/LoginSection"
 
