@@ -71,3 +71,38 @@
 	width: 20px;
 	margin-left: 20px;
 }
+@media (max-width: 600px) {
+	.card-title {
+		font-size: 20px;
+		text-align: center;
+	}
+	.card-description {
+		font-size: 16px;
+		text-align: center;
+	}
+	.text-container h1 {
+		font-size: 14px;
+	}
+	.text-container p {
+		font-size: 13px;
+	}
+	.grid-container {
+		width: 330px;
+		margin-left: auto;
+		margin-right: auto;
+		grid-template-columns: 60px 200px 40px;
+	}
+	.flecha {
+		margin-left: 5px;
+	}
+}
+@media (max-width: 450px) {
+	.card-description {
+		font-size: 12px;
+	}
+}
+@media (max-width: 350px) {
+	.column {
+		width: 400px;
+	}
+}
