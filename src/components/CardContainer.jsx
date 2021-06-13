@@ -19,6 +19,7 @@ function CardContainer({ handleClick }) {
 			<CardImage
 				clase="business-container"
 				img={briefcase}
+				handleClick={handleClick}
 				title="Business"
 				description="Tienes o perteneces a una compañia"
 			></CardImage>

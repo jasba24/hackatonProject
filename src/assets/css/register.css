@@ -12,11 +12,20 @@
 .form-title {
 	font-size: 20px;
 	font-weight: bold;
-	padding-bottom: 10px;
+}
+.register-text {
 	margin-bottom: 5px;
+	padding-bottom: 10px;
 	border-bottom: 1px solid #8080802b;
 }
 .register-container {
 	width: 400px;
 	margin: 20px auto;
+}
+.modal.is-active {
+	display: flex;
+}
+.localization-text {
+	font-size: 14px;
+	color: gray;
 }

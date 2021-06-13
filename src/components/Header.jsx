@@ -1,7 +1,7 @@
 import React from "react"
 
 export default function Header({ value, clase, backOne }) {
-	const changelabel = (val) => {
+	const changelabel = val => {
 		const labels = {
 			1: "Personal Info.",
 			2: "Localización",
@@ -16,7 +16,7 @@ export default function Header({ value, clase, backOne }) {
 					Ya tienes cuenta? <strong>Inicia sesión</strong>
 				</h1>
 			)}
-			{value > 0 && (
+			{value > 0 && value < 4 && (
 				<React.Fragment>
 					<div>
 						<h1 onClick={backOne} className="back">
@@ -30,6 +30,11 @@ export default function Header({ value, clase, backOne }) {
 						</h1>
 					</div>
 				</React.Fragment>
+			)}
+			{value > 3 && (
+				<h1>
+					Ya tienes cuenta? <strong>Inicia sesión</strong>
+				</h1>
 			)}
 		</header>
 	)
